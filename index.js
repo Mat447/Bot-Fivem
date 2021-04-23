@@ -23,7 +23,7 @@ function activity() {
       if (err) {
         console.log(err);
       } else {
-        client.user.setActivity("CONFIDENCE RP " + data.clients + "/" + data.maxclients, { type: configs.activityType });
+        client.user.setActivity("Dévotion RP " + data.clients + "/" + data.maxclients, { type: configs.activityType });
       }
     });
     activity();
