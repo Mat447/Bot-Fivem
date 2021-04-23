@@ -35,7 +35,7 @@ activity();
 client.on("message", msg => {  
 	
   if (msg.content == prefix + "ip"){
-      msg.channel.send("```connect confidenceroleplayv2.capriceserv.com:30686```");
+      msg.channel.send("```connect 82.66.6.226:30120```");
   }
 
 
